@@ -5,7 +5,7 @@ const items = [
   { icon: Home, path: "/dashboard", label: "Accueil" },
   { icon: Users, path: "/friends", label: "Amis" },
   { icon: MessageCircle, path: "/messages", label: "Messages" },
-  { icon: Bell, path: "/dashboard?tab=notifications", label: "Alertes" },
+  { icon: Bell, path: "/notifications", label: "Alertes" },
   { icon: User, path: "/profile", label: "Profil" },
 ];
 

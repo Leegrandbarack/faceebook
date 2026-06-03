@@ -30,12 +30,12 @@ const DashboardNavbar = ({ user }: DashboardNavbarProps) => {
     { icon: Store, path: "/users", label: "Utilisateurs" },
   ];
 
-  const mobileTabs = [
+  const mobileTabs: { icon: typeof Home; path: string; label: string; badge?: string }[] = [
     { icon: Home, path: "/dashboard", label: "Accueil" },
     { icon: Video, path: "#", label: "Reels" },
     { icon: UserPlus, path: "/friends", label: "Amis" },
     { icon: Store, path: "/users", label: "Marketplace" },
-    { icon: Bell, path: "#notif", label: "Notifications", badge: "9+" },
+    { icon: Bell, path: "/notifications", label: "Notifications" },
     { icon: Menu, path: "/settings", label: "Menu" },
   ];
 
